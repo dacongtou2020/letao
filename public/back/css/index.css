@@ -1,0 +1,6 @@
+
+.container-fluid .echarts .pic_left,
+.container-fluid .echarts .pic_right{
+    width: 45%;
+    height: 400px;
+}

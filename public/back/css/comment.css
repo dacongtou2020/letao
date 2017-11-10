@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_login{
+    background-color: #222d32;
+}
+body,
+html{
+    width: 100%;
+    height: 100%;
+}
+/* 自定义类名 */
+.mar_150{
+    margin-top: 150px;
+}
+.mar_50{
+    margin-left: 50px;
+}
+h4{
+    text-align: center;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+
+
+.panel-default .panel-heading{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+/* 侧边栏 */
+.aside_left{
+    width: 200px;
+    height: 100%;
+    background: #222d32;
+    position: fixed;
+    transition: all 1s;
+    left: 0;
+    z-index: 999;
+
+}
+.aside_left.now{
+    left:-200px;
+    
+
+}
+.aside_left .title{
+    height: 50px;
+    width: 200px;
+    background-color:#367fa9;;
+}
+.aside_left .title a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+.aside_left .nav{
+    width: 200px;
+    height: 100%;
+    
+    
+}
+.aside_left .info{
+    height: 100px;
+    text-align: center;
+    width: 200px;
+}
+.aside_left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.aside_left span{
+    color: #fff;
+    font-size: 14px;
+    line-height: 100px;
+}
+.aside_left .nav a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #aaa;
+    padding-left: 30px;
+    line-height: 40px;
+    border: 3px solid transparent;
+}
+
+.aside_left .nav a.now {
+    border-left-color: #069;
+    background-color: #1d1f21;
+    color: #fff;
+  }
+.aside_left .category a.now {
+    border-left-color: transparent;
+    background-color: #222d32;
+    color: #fff;
+}
+.aside_left .nav a i{
+    margin-right: 4px;
+}
+.aside_left .nav .category a{
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 50px;
+    display: block;
+    height: 30px;
+}
+
+/* 右边主体部分 */
+
+/* 主体导航部分 */
+.main{
+  height: 100%;
+  padding-left: 200px;  
+  transition: all 1s;
+  /* overflow: hidden; */
+  padding-top: 70px;
+}
+.main.now{
+    padding-left:0; 
+    
+}
+.main #nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px; 
+    margin-bottom: 20px;  
+    background-color:#3c8dbc;
+    padding: 0 20px 0 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 1px solid #000; */
+    z-index: 998;
+    transition: all 1s;
+    
+}
+.main #nav.now{
+    padding-left: 20px;
+}
+.main #nav a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    /* margin-left: 20px; */
+   
+}
+
+/* .main .container-fluid{
+    margin-top: 50px;
+} */

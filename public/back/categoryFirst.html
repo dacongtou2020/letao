@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>letao一级分类页面</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./lib/nprogress/nprogress.css">
+    <link rel="stylesheet" href="./css/comment.css">
+    <link rel="stylesheet" href="./css/categoryFirst.css">
+</head>
+
+<body style="overflow-y:hidden">
+    <!-- 左边侧边栏 -->
+    <div class="aside_left">
+        <div class="title">
+            <a href="./index.html">大葱头</a>
+        </div>
+        <div class="info">
+            <img src="./img/default.png" alt="">
+            <span>超级管理员</span>
+        </div>
+        <div class="nav">
+            <a href="./userManger.html">
+                <i class="glyphicon glyphicon-user"></i>用户管理</a>
+            <a href="javascript:;" class="toggle now">
+                <i class="glyphicon glyphicon-list"></i>分类管理</a>
+            <div class="category" style="display:block;">
+                <a href="./categoryFirst.html" class="now">一级分类</a>
+                <a href="./categorySecond.html">二级分类</a>
+            </div>
+            <a href="productManage.html">
+                <i class="glyphicon glyphicon-tags"></i>商品管理</a>
+        </div>
+    </div>
+    <!-- 右边主体部分 -->
+    <div class="main">
+        <div id="nav">
+            <a href="javascript:;" class="pull-left"><i class="glyphicon glyphicon-align-justify"></i></a>
+            <a href="javascript:;" class="pull-right"><i class="glyphicon glyphicon-log-out"></i></a>
+        </div>
+        <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li><a href="#">管理系统</a></li>
+                <li class="active">商品管理</li>
+            </ol>
+            
+        </div>      
+    </div>
+</body>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<script src="./lib/nprogress/nprogress.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
+<script src="./js/comment.js"></script>
+<script src="./js/categoryFirst.js"></script>
+
+</html>
